@@ -1,0 +1,8 @@
+gradio==4.12.0
+qdrant_client==1.7.0
+sentence_transformers==2.2.2
+PyPDF2==3.0.1
+langchain==0.0.351
+llama_cpp_python==0.2.24
+ctransformers==0.2.27
+gradio_pdf
