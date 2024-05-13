@@ -6,7 +6,8 @@ from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
-from langchain.llms import LlamaCpp
+# from langchain.llms import LlamaCpp 
+# uncomment above one if you gonna use local Model 
 from langchain.vectorstores import Qdrant
 from qdrant_client.http import models
 # from langchain.llms import CTransformers
@@ -35,6 +36,8 @@ print("loading the LLM......................................")
 #     callback_manager=callback_manager,
 #     verbose=True,
 # )
+
+'''# uncomment above one if you gonna use local Model and comment a section below ''' 
 
 llm = AutoModelForCausalLM.from_pretrained("TheBloke/Llama-2-7B-Chat-GGUF", 
                                            model_file="llama-2-7b-chat.Q3_K_S.gguf", 
