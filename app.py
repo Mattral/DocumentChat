@@ -8,7 +8,7 @@ from langchain.callbacks.manager import CallbackManager
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler
 
 # from langchain.llms import LlamaCpp 
-# uncomment above one if you gonna use local Model 
+# uncomment above one if you gonna use local Model by downloading weight
 
 from langchain.vectorstores import Qdrant
 from qdrant_client.http import models
