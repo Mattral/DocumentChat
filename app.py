@@ -29,6 +29,8 @@ callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
 
 print("loading the LLM......................................")
 
+# link to download quantized models: [https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF]
+
 # llm = LlamaCpp(
 #     model_path="./llama-2-7b-chat.Q3_K_S.gguf",
 #     temperature = 0.2,
