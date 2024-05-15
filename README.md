@@ -9,7 +9,7 @@ Just by replacing the path to models, you can use any kind of model weights whet
 
 ```
 My note:
-Very boring and ineficient,
-why use upload document when you can fine tune it
-so it is more efficient in inference
+Very boring and inefficient logic,
+why use upload document when you can fine tune it!
+so it is more efficient in inference and much faster
 ```
